@@ -29,6 +29,10 @@ html * {
     color: orange;
 }
 
+#perfil {
+    display: flex;
+    justify-content: center;
+}
 
 #perfil img {
     width: 250px;
