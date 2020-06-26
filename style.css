@@ -1,0 +1,54 @@
+html * {
+    margin: 0px;
+
+}
+
+.cabecalho {
+    background-image: url(img/montanha.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#menu {
+    text-align: center;
+    padding: 20px 0px 40px 0px;
+}
+
+#menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 8px 13px;
+    color: black;
+}
+
+#menu a:hover {
+    color: orange;
+}
+
+.banner {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.banner hr {
+    width: 50%;
+}
+
+h1 {
+    font-size: 80px;
+    padding: 30px;
+}
+
+h2 {
+    margin: 20px
+}
+
+.media {
+    padding: 30px;
+}
+
+img {
+    padding: 10px;
+}
