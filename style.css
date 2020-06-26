@@ -1,7 +1,10 @@
 html * {
     margin: 0px;
-
+    font-family: 'Lato';
+    text-align: center;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,900&display=swap');
 
 .cabecalho {
     background-image: url(img/montanha.jpg);
@@ -11,7 +14,6 @@ html * {
 }
 
 #menu {
-    text-align: center;
     padding: 20px 0px 40px 0px;
 }
 
@@ -27,8 +29,15 @@ html * {
     color: orange;
 }
 
+
+#perfil img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 .banner {
-    text-align: center;
     margin-top: 20px;
 }
 
@@ -42,7 +51,12 @@ h1 {
 }
 
 h2 {
-    margin: 20px
+    margin: 20px;
+    font-size: 20px;
+}
+
+h3 {
+    padding: 30px;
 }
 
 .media {
@@ -51,4 +65,36 @@ h2 {
 
 img {
     padding: 10px;
+}
+
+.sobre {
+    height: 200px;
+    background-color: #2B2B2B;
+    padding: 30px;
+    color: white;
+}
+
+.sobre h3 {
+    padding: 20px 0px;
+}
+
+.sobre p {
+    padding: 20px 0px;
+}
+
+.experiencias {
+    height: 1000px;
+    background-color: #F2F2F2;
+}
+
+.portfolio {
+    height: 800px;
+    background-color: #2B2B2B;
+
+}
+
+.rodape {
+    height: 400px;
+    background-color: #0F0F0F;
+    color: white;
 }
