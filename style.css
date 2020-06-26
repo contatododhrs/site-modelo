@@ -10,7 +10,7 @@ html * {
     background-image: url(img/montanha.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 700px;
 }
 
 #menu {
@@ -72,14 +72,10 @@ img {
 }
 
 .sobre {
-    height: 200px;
+    height: 300px;
     background-color: #2B2B2B;
     padding: 30px;
     color: white;
-}
-
-.sobre h3 {
-    padding: 20px 0px;
 }
 
 .sobre p {
@@ -87,18 +83,34 @@ img {
 }
 
 .experiencias {
-    height: 1000px;
-    background-color: #F2F2F2;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    height: 300px;
 }
 
 .portfolio {
-    height: 800px;
+    padding: 30px 15px;
     background-color: #2B2B2B;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 30px;
+    justify-content: center;
+}
 
+.portfolio img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
 }
 
 .rodape {
     height: 400px;
     background-color: #0F0F0F;
     color: white;
+}
+
+.alinhar-imagens {
+    display: grid;
+    justify-content: center;
 }
