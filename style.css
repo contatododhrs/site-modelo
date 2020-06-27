@@ -1,7 +1,7 @@
 html * {
     margin: 0px;
     font-family: 'Lato';
-    text-align: center;
+
     line-height: 30px;
 }
 
@@ -12,6 +12,7 @@ html * {
     background-size: 100%;
     background-repeat: no-repeat;
     height: 800px;
+    text-align: center;
 }
 
 #menu {
@@ -55,9 +56,10 @@ h1 {
     padding: 30px;
 }
 
-h2 {
-    margin: 20px;
-    font-size: 20px;
+
+h3 {
+    text-transform: uppercase;
+    text-align: left;
 }
 
 .media {
@@ -73,21 +75,25 @@ img {
     padding: 30px;
     color: white;
     padding: 100px;
-}
-
-.data {
-    width: 350px;
-    font-size: 20px;
-    padding: 10px;
-}
-
-.data h4 {
-    font-size: 16px;
-    border-bottom: 1px solid gray;
+    text-align: center;
 }
 
 .sobre p {
     padding: 20px 0px;
+}
+
+.titulos {
+    width: 350px;
+    font-size: 20px;
+    padding-bottom: 5px;
+    border-bottom: 5px solid #0FAAAF;
+    width: 800px;
+    margin-right: 100px;
+}
+
+h4 {
+    font-style: oblique;
+    color: #7C868F;
 }
 
 .grid {
@@ -100,20 +106,19 @@ img {
 .experiencias {
     display: grid;
     justify-content: center;
-    line-height: 30px;
+    line-height: 50px;
+    margin-bottom: 20px;
 }
 
 .experiencias-item {
-    max-width: 1200px;
+    max-width: 1300px;
+    width: 1200px;
     display: flex;
-    margin: 50px;
-    align-items: center;
+    margin: 40px;
+    align-items: baseline;
     height: 150px;
-}
-
-.experiencias p {
-    padding: 30px;
-    margin: 30px;
+    text-align: left;
+    color: #7C868F;
 }
 
 .grid {
@@ -131,8 +136,8 @@ img {
     background-color: #2B2B2B;
     padding: 30px;
     color: white;
+    text-align: center;
 }
-
 
 .rodape {
     padding: 30px;
