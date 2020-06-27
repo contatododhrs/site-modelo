@@ -10,7 +10,7 @@ html * {
     background-image: url(img/montanha.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 700px;
+    height: 800px;
 }
 
 #menu {
@@ -59,10 +59,6 @@ h2 {
     font-size: 20px;
 }
 
-h3 {
-    padding: 30px;
-}
-
 .media {
     padding: 30px;
 }
@@ -72,45 +68,73 @@ img {
 }
 
 .sobre {
-    height: 300px;
     background-color: #2B2B2B;
     padding: 30px;
     color: white;
+    padding: 100px;
+}
+
+.data {
+    width: 350px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.data h4 {
+    font-size: 16px;
+    border-bottom: 1px solid gray;
 }
 
 .sobre p {
     padding: 20px 0px;
 }
 
-.experiencias {
-    padding: 50px;
+.grid {
     display: grid;
-    grid-template-columns: 1fr 4fr;
-    height: 300px;
+    grid-template-columns: repeat(4, auto);
+    padding: 30px;
+    gap: 20px;
 }
 
-.portfolio {
-    padding: 30px 15px;
-    background-color: #2B2B2B;
+.experiencias {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    row-gap: 30px;
+    justify-content: center;
+    line-height: 30px;
+}
+
+.experiencias-item {
+    max-width: 1200px;
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    height: 150px;
+}
+
+.experiencias p {
+    padding: 30px;
+    margin: 30px;
+}
+
+.grid {
+    display: grid;
     justify-content: center;
 }
 
-.portfolio img {
-    height: 200px;
-    width: 200px;
+.grid-item {
+    width: 250px;
+    height: 250px;
     object-fit: cover;
 }
 
-.rodape {
-    height: 400px;
-    background-color: #0F0F0F;
+.portfolio {
+    background-color: #2B2B2B;
+    padding: 30px;
     color: white;
 }
 
-.alinhar-imagens {
-    display: grid;
-    justify-content: center;
+
+.rodape {
+    padding: 30px;
+    background-color: #0F0F0F;
+    color: white;
 }
