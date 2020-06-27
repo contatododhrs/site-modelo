@@ -9,30 +9,23 @@ html * {
 .cabecalho {
     background-image: url(img/montanha.jpg);
     background-size: 100%;
-    background-repeat: no-repeat;
-    height: 800px;
+    height: 700px;
     text-align: center;
 }
 
 #menu {
-    padding: 20px 0px 40px 0px;
+    padding: 20px 0px;
 }
 
 #menu a {
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: bold;
-    padding: 8px 13px;
+    padding: 10px;
     color: black;
 }
 
 #menu a:hover {
     color: orange;
-}
-
-#perfil {
-    display: flex;
-    justify-content: center;
 }
 
 #perfil img {
@@ -42,31 +35,22 @@ html * {
     border-radius: 50%;
 }
 
-.banner {
-    margin: 20px;
-}
-
-.banner hr {
-    width: 50%;
-}
-
 h1 {
     font-size: 80px;
     padding: 30px;
     margin: 30px;
 }
 
+.media {
+    padding: 50px;
+}
+
+.media a {
+    padding: 10px;
+}
+
 h3 {
     text-transform: uppercase;
-    text-align: left;
-}
-
-.media {
-    padding: 30px;
-}
-
-img {
-    padding: 10px;
 }
 
 .avatar {
@@ -99,7 +83,6 @@ img {
     display: flex;
     justify-content: flex-end;
     width: 600px;
-
 }
 
 .titulos h3 {
