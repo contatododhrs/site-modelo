@@ -2,6 +2,7 @@ html * {
     margin: 0px;
     font-family: 'Lato';
     text-align: center;
+    line-height: 30px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,900&display=swap');
