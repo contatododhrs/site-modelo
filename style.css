@@ -28,17 +28,17 @@ html * {
     color: orange;
 }
 
-#perfil img {
-    width: 250px;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 50%;
-}
-
 h1 {
     font-size: 80px;
     padding: 30px;
     margin: 30px;
+}
+
+.foto {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .media {
@@ -53,33 +53,35 @@ h3 {
     text-transform: uppercase;
 }
 
-.avatar {
-    width: 150px;
-    height: 150px;
-    padding-right: 30px;
-    object-fit: cover;
-}
-
 .sobre {
     background-color: #2B2B2B;
-    text-align: center;
     padding: 50px;
     color: white;
+    text-align: center;
 }
 
 .sobre-itens {
-    padding: 30px;
+    padding: 10px;
+
     display: flex;
     align-items: center;
 }
 
+.avatar {
+    width: 200px;
+    padding-right: 30px;
+    object-fit: cover;
+}
+
 .sobre-itens p {
     padding: 20px 0px;
+    width: 1200px;
 }
 
 .titulos {
     font-size: 20px;
     margin-right: 100px;
+    
     display: flex;
     justify-content: flex-end;
     width: 600px;
@@ -93,21 +95,11 @@ h3 {
 h4 {
     font-style: oblique;
     color: #7C868F;
-    padding-bottom: 10px;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    padding: 30px;
-    gap: 20px;
 }
 
 .experiencias {
     display: grid;
     justify-content: center;
-    line-height: 50px;
-    margin-bottom: 20px;
 }
 
 .experiencias-item {
@@ -119,20 +111,21 @@ h4 {
 }
 
 .grid {
+    background-color: #ECEEED;
+    padding: 30px;
+
     display: grid;
+    grid-template-columns: repeat(4, auto);
     justify-content: center;
+
+    padding: 30px;
+    gap: 20px;
 }
 
 .grid-item {
     width: 250px;
     height: 250px;
     object-fit: cover;
-}
-
-.portfolio {
-    background-color: #ECEEED;
-    padding: 30px;
-    text-align: center;
 }
 
 .rodape {
