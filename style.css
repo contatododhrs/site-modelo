@@ -83,11 +83,10 @@ img {
 }
 
 .titulos {
-    width: 350px;
+    width: 300px;
     font-size: 20px;
     padding-bottom: 5px;
-    border-bottom: 5px solid #0FAAAF;
-    width: 800px;
+    border-bottom: 2px solid #0FAAAF;
     margin-right: 100px;
 }
 
@@ -117,7 +116,6 @@ h4 {
     margin: 40px;
     align-items: baseline;
     height: 150px;
-    text-align: left;
     color: #7C868F;
 }
 
