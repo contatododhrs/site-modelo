@@ -1,7 +1,6 @@
 html * {
     margin: 0px;
     font-family: 'Lato';
-
     line-height: 30px;
 }
 
@@ -76,6 +75,7 @@ img {
     color: white;
     padding: 100px;
     text-align: center;
+    display: flex;
 }
 
 .sobre p {
@@ -83,16 +83,23 @@ img {
 }
 
 .titulos {
-    width: 300px;
     font-size: 20px;
-    padding-bottom: 5px;
-    border-bottom: 2px solid #0FAAAF;
     margin-right: 100px;
+    display: flex;
+    justify-content: flex-end;
+    width: 600px;
+
+}
+
+.titulos h3 {
+    padding-bottom: 7px;
+    border-bottom: 3px solid #0FAAAF;
 }
 
 h4 {
     font-style: oblique;
     color: #7C868F;
+    padding-bottom: 10px;
 }
 
 .grid {
@@ -110,12 +117,10 @@ h4 {
 }
 
 .experiencias-item {
-    max-width: 1300px;
     width: 1200px;
     display: flex;
     margin: 40px;
     align-items: baseline;
-    height: 150px;
     color: #7C868F;
 }
 
@@ -131,9 +136,8 @@ h4 {
 }
 
 .portfolio {
-    background-color: #2B2B2B;
+    background-color: #ECEEED;
     padding: 30px;
-    color: white;
     text-align: center;
 }
 
