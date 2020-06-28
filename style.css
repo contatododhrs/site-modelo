@@ -63,8 +63,6 @@ h3 {
 .sobre-itens {
     padding: 10px;
 
-    display: flex;
-    align-items: center;
 }
 
 .avatar {
@@ -81,9 +79,7 @@ h3 {
 .titulos {
     font-size: 20px;
     margin-right: 100px;
-    
-    display: flex;
-    justify-content: flex-end;
+
     width: 600px;
 }
 
@@ -104,7 +100,7 @@ h4 {
 
 .experiencias-item {
     width: 1200px;
-    display: flex;
+
     margin: 40px;
     align-items: baseline;
     color: #7C868F;
