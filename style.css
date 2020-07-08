@@ -167,14 +167,14 @@ h6{
     object-fit: cover;
 }
 
-#contato {
+#contatos {
     padding: 30px;
     padding-bottom: 0px;
     background-color: #0F0F0F;
     color: white;
 }
 
-#contato img{
+#contatos img{
     width: 45px;
     margin: 0px 15px 40px;
 }
