@@ -1,49 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <title>Currículo</title>
         <link rel="stylesheet" href="style.css">
     </head>
-
     <body>
         <header class="cabecalho texto-centralizado">
             <nav id="menu">
                 <a href="#">Principal</a>
-                <a href="#">Sobre</a>
-                <a href="#">Resumo</a>
-                <a href="#">Trabalhos</a>
-                <a href="#">Contato</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#formacao">Formação</a>
+                <a href="#trabalhos">Trabalhos</a>
+                <a href="#contato">Contato</a>
             </nav>
-            
             <h1>Oi! Eu sou Erik Lima</h1>
             <p>Sou designer gráfico, ilustrador e webdesigner de Manila. Crio identidades visuais diferenciadas <br>
                 e altamente eficazes para empresas de todos os tamanhos ao redor do mundo. </br>
                 Veja mais sobre mim aqui embaixo no restante do meu site.</p>
-
             <div class="traco"></div>
-            <div class="media">
-                <a href="#"><img src="img/facebook.png"></a>
-                <a href="#"><img src="img/instagram.png"></a>
-                <a href="#"><img src="img/linkedin.png"></a>
+            <div class="midia">
+                <a href="https://www.facebook.com"><img src="img/facebook.png"></a>
+                <a href="https://www.instagram.com/"><img src="img/instagram.png"></a>
+                <a href="https://linkedin.com"><img src="img/linkedin.png"></a>
                 <a href="#"><img src="img/whatsapp.png"></a>
             </div>
         </header>
         <main>
-            <section class="sobre texto-centralizado">
+            <section id="sobre" class="texto-centralizado">
                 <img src="img/perfil.jpg" class="foto">
-                    <h2>Sobre mim</h2>
-                    <div class="traco"></div>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <br> 
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco <br>                         laboris 
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in.
-                    </p> 
-                        
+                <h2>Sobre mim</h2>
+                <div class="traco"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut <br> 
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco <br>                         
+                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in.</p> 
             </section>
-            
-            <section class="curriculo">
-                <section class="curriculo-item">
+            <article class="curriculo">
+                <section id="formacao" class="curriculo-item">
                     <div class="texto-centralizado">
                         <h3>Educação</h3>
                         <div class="traco"></div>
@@ -56,7 +49,6 @@
                             quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum 
                             felis eu pede mollis pretium.</p>
                     </div>
-
                     <div>
                         <h4>Universidade Belas Artes</h4>
                         <h5>Design Gráfico • Julho 2013</h5>
@@ -73,54 +65,50 @@
                         <h3>Experiências</h3>
                         <div class="traco"></div>
                     </div>
-                        <div>
-                            <h4>Awesome Design Studio</h4>
-                            <h5>UX Designer • Outubro 2019 - Presente</h5>
-                            <p>Cum sociis natoque penatibus et magnis dis parturient montes, 
-                                nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque 
-                                eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, 
-                                fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu 
-                                pede mollis pretium.</p>
+                    <div>
+                        <h4>Awesome Design Studio</h4>
+                        <h5>UX Designer • Outubro 2019 - Presente</h5>
+                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, 
+                            nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque 
+                            eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, 
+                            fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu 
+                            pede mollis pretium.</p>
+                    </div>
+                    <div class="traco-cinza"></div>
+                    <section class="curriculo-item">
+                        <div class="texto-centralizado">
+                            <h3>Habilidades</h3>
+                            <div class="traco"></div>
                         </div>
-                        <div class="traco-cinza"></div>
-
-
-                        <section class="curriculo-item">
-                            <div class="texto-centralizado">
-                                <h3>Habilidades</h3>
-                                <div class="traco"></div>
+                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, 
+                            nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque 
+                            eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, 
+                            fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu 
+                            pede mollis pretium.</p>
+                        <section id="progresso">
+                            <h6>Photoshop</h6>
+                            <div class="barra-progresso">
+                                <div class="barra-quantidade" id="habilidade-photoshop"></div>
                             </div>
-                            <p>
-                                Cum sociis natoque penatibus et magnis dis parturient montes, 
-                                nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque 
-                                eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, 
-                                fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu 
-                                pede mollis pretium.
-                            </p>
-                            <section id="progresso">
-                                <h6>Photoshop</h6>
-                                <div class="barra-progresso">
-                                    <div class="barra-quantidade" id="habilidade-photoshop"></div>
-                                </div>
-        
-                                <h6>Illustrator</h6>
-                                <div class="barra-progresso">
-                                    <div class="barra-quantidade" id="habilidade-illustrator"></div>
-                                </div>
-        
-                                <h6>Word</h6>
-                                <div class="barra-progresso">
-                                    <div class="barra-quantidade" id="habilidade-word"></div>
-                                </div>
-        
-                                <h6>HTML</h6>
-                                <div class="barra-progresso">
-                                    <div class="barra-quantidade" id="habilidade-html"></div>
-                                </div>
-                            </section>
+    
+                            <h6>Illustrator</h6>
+                            <div class="barra-progresso">
+                                <div class="barra-quantidade" id="habilidade-illustrator"></div>
+                            </div>
+    
+                            <h6>Word</h6>
+                            <div class="barra-progresso">
+                                <div class="barra-quantidade" id="habilidade-word"></div>
+                            </div>
+    
+                            <h6>HTML</h6>
+                            <div class="barra-progresso">
+                                <div class="barra-quantidade" id="habilidade-html"></div>
+                            </div>
+                        </section>
                     </section>              
                 </section>
-            </section>
+            </article>
 
             <section id="trabalhos" class="texto-centralizado">
                 <h3>Trabalhos</h3>
@@ -137,7 +125,7 @@
                 </section>
             </section>
         </main>
-        <footer>
+        <footer id="contato">
             <section class="rodape texto-centralizado">
                 <p>Copyright ©2020 All rights reserved | Filis Berton</p>
             </section>

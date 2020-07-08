@@ -68,11 +68,11 @@ p {
     margin: 32px auto;
 }
 
-.media a {
+.midia a {
     padding: 12px;
 }
 
-.sobre {
+#sobre {
     background-color: #151728;
     padding: 50px;
     color: #ffffff;
@@ -150,7 +150,7 @@ h6{
 #trabalhos{
     padding: 40px 0px 0px 0px;
     color: #ffffff;
-    background-color: #484848;
+    background-color: #000000;
 }
 
 .grid {
@@ -172,4 +172,8 @@ h6{
     background-color: #0F0F0F;
     color: white;
     text-transform: uppercase;
+}
+
+html {
+    scroll-behavior: smooth;
 }
