@@ -8,16 +8,16 @@ html * {
     
 }
 
- .texto-centralizado{
-    text-align: center;
-}
-
 .cabecalho {
-    background-image: url(img/background.jpg);
+    background-image: url(img/background.png);
     background-size: 100% 100%;
     height: 818px;
     object-fit: cover;
     color: white;
+}
+
+.texto-centralizado{
+    text-align: center;
 }
 
 #menu {
@@ -50,14 +50,20 @@ h1 {
     margin: 190px 30px 30px 30px;
 }
 
-h2 {
-    font-size: 40px;
-    line-height: 28px;
-}
-
 p {
     padding-bottom: 42px;
     line-height: 30px;
+}
+
+.midia a {
+    padding: 12px;
+}
+
+#sobre {
+    background-color: #151728;
+    padding: 50px;
+    color: #ffffff;
+    margin: auto auto;
 }
 
 .foto {
@@ -68,15 +74,22 @@ p {
     margin: 32px auto;
 }
 
-.media a {
-    padding: 12px;
+h2 {
+    font-size: 40px;
+    line-height: 28px;
 }
 
-.sobre {
-    background-color: #151728;
-    padding: 50px;
-    color: #ffffff;
-    margin: auto auto;
+#curriculo {
+    display: grid;
+    justify-content: center;
+    background-color: #F5F5F5;
+    color: #484848;
+}
+
+.curriculo-item {
+    width: 1000px;
+    margin-top: 40px;
+    align-items: baseline;
 }
 
 h3 {
@@ -97,25 +110,6 @@ h5 {
     padding-bottom: 27px;
 }
 
-h6{
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 36px;
-}
-
-.curriculo {
-    display: grid;
-    justify-content: center;
-    background-color: #F5F5F5;
-    color: #484848;
-}
-
-.curriculo-item {
-    width: 1000px;
-    margin-top: 40px;
-    align-items: baseline;
-}
-
 .traco-cinza {
     height: 20px;
     border-bottom: 1px solid #CBCBCB;
@@ -125,6 +119,12 @@ h6{
 
 #progresso {
     margin: 20px 0px 100px 0px;
+}
+
+h6{
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
 }
 
 .barra-progresso{
@@ -148,12 +148,12 @@ h6{
 #habilidade-html{ width: 50%; }
 
 #trabalhos{
-    padding: 40px 0px 0px 0px;
+    padding: 60px 0px;
     color: #ffffff;
-    background-color: #484848;
+    background-color: #000000;
 }
 
-.grid {
+#galeria {
     padding: 30px;
     display: grid;
     grid-template-columns: repeat(4, auto);
@@ -161,15 +161,24 @@ h6{
     gap: 20px;
 }
 
-.grid-item {
+.galeria-item {
     width: 250px;
     height: 250px;
     object-fit: cover;
 }
 
-.rodape {
+#contato {
     padding: 30px;
+    padding-bottom: 0px;
     background-color: #0F0F0F;
     color: white;
-    text-transform: uppercase;
+}
+
+#contato img{
+    width: 45px;
+    margin: 0px 15px 40px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
