@@ -9,7 +9,7 @@ html * {
 }
 
 .cabecalho {
-    background-image: url(img/background.png);
+    background-image: url(img-pro/background.jpg);
     background-size: 100% 100%;
     height: 818px;
     object-fit: cover;
@@ -33,13 +33,13 @@ html * {
 }
 
 #menu a:hover {
-    color: #0FF2F2;
+    color: #D6CF00;
 }
 
 .traco {
     height: 20px;
     width: 50px;
-    border-bottom: 4px solid #0FF2F2;
+    border-bottom: 4px solid #D6CF00;
     margin: 20px auto 40px auto;
     width: 5%;
 }
@@ -138,14 +138,14 @@ h6{
 
 .barra-quantidade{
     height: 13px;
-    background: #0FF2F2;
+    background: #D6CF00;
     border-radius: 80px;
 }
 
-#habilidade-photoshop{ width: 80%; }
-#habilidade-illustrator{ width: 50%; }
-#habilidade-word{ width: 60%; }
-#habilidade-html{ width: 50%; }
+#habilidade-backend{ width: 80%; }
+#habilidade-frontend{ width: 58%; }
+#habilidade-webdev{ width: 40%; }
+#habilidade-mobile{ width: 55%; }
 
 #trabalhos{
     padding: 60px 0px;
@@ -167,14 +167,14 @@ h6{
     object-fit: cover;
 }
 
-#contato {
+#contatos {
     padding: 30px;
     padding-bottom: 0px;
     background-color: #0F0F0F;
     color: white;
 }
 
-#contato img{
+#contatos img{
     width: 45px;
     margin: 0px 15px 40px;
 }

@@ -9,9 +9,9 @@ html * {
 }
 
 .cabecalho {
-    background-image: url(img/background.png);
+    background-image: url(img-bar/background.png);
     background-size: 100% 100%;
-    height: 818px;
+    height: 750px;
     object-fit: cover;
     color: white;
 }
@@ -33,13 +33,13 @@ html * {
 }
 
 #menu a:hover {
-    color: #0FF2F2;
+    color: #FF410D;
 }
 
 .traco {
     height: 20px;
     width: 50px;
-    border-bottom: 4px solid #0FF2F2;
+    border-bottom: 4px solid #FF410D;
     margin: 20px auto 40px auto;
     width: 5%;
 }
@@ -59,8 +59,13 @@ p {
     padding: 12px;
 }
 
+.midia img:hover {
+    filter: invert(75%);
+    transform: scale(1.1);
+}
+
 #sobre {
-    background-color: #151728;
+    background-color: #401003;
     padding: 50px;
     color: #ffffff;
     margin: auto auto;
@@ -138,19 +143,20 @@ h6{
 
 .barra-quantidade{
     height: 13px;
-    background: #0FF2F2;
+    background: #FF410D;
     border-radius: 80px;
 }
 
-#habilidade-photoshop{ width: 80%; }
-#habilidade-illustrator{ width: 50%; }
-#habilidade-word{ width: 60%; }
-#habilidade-html{ width: 50%; }
+#habilidade-drink{ width: 75%; }
+#habilidade-coquetel{ width: 60%; }
+#habilidade-destilado{ width: 43%; }
+#habilidade-cerveja{ width: 50%; }
+#habilidade-vinho{ width: 35%; }
 
 #trabalhos{
     padding: 60px 0px;
     color: #ffffff;
-    background-color: #000000;
+    background-color: #000320;
 }
 
 #galeria {
@@ -167,14 +173,14 @@ h6{
     object-fit: cover;
 }
 
-#contato {
+#contatos {
     padding: 30px;
     padding-bottom: 0px;
-    background-color: #0F0F0F;
+    background-color: #000000;
     color: white;
 }
 
-#contato img{
+#contatos img{
     width: 45px;
     margin: 0px 15px 40px;
 }
