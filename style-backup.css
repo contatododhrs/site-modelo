@@ -5,11 +5,10 @@ html * {
     font-family: 'Lato';
     font-size: 18px;
     line-height: 22px;
-    
 }
 
 .cabecalho {
-    background-image: url(img-adm/background.jpg);
+    background-image: url(img/background.png);
     background-size: 100% 100%;
     height: 818px;
     object-fit: cover;
@@ -18,6 +17,24 @@ html * {
 
 .texto-centralizado{
     text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+    padding: 30px;
+    margin: 190px 30px 30px 30px;
+}
+
+.midia a {
+    padding: 12px;
+}
+
+.traco {
+    height: 20px;
+    width: 50px;
+    border-bottom: 4px solid #0FF2F2;
+    margin: 20px auto 40px auto;
+    width: 5%;
 }
 
 #menu {
@@ -36,27 +53,9 @@ html * {
     color: #0FF2F2;
 }
 
-.traco {
-    height: 20px;
-    width: 50px;
-    border-bottom: 4px solid #0FF2F2;
-    margin: 20px auto 40px auto;
-    width: 5%;
-}
-
-h1 {
-    font-size: 80px;
-    padding: 30px;
-    margin: 190px 30px 30px 30px;
-}
-
 p {
     padding-bottom: 42px;
     line-height: 30px;
-}
-
-.midia a {
-    padding: 12px;
 }
 
 #sobre {
@@ -150,7 +149,7 @@ h6{
 #trabalhos{
     padding: 60px 0px;
     color: #ffffff;
-    background-color: #000000;
+    background-color: #1D1D1D;
 }
 
 #galeria {
@@ -167,14 +166,14 @@ h6{
     object-fit: cover;
 }
 
-#contato {
+#contatos {
     padding: 30px;
     padding-bottom: 0px;
     background-color: #0F0F0F;
     color: white;
 }
 
-#contato img{
+#contatos img{
     width: 45px;
     margin: 0px 15px 40px;
 }
